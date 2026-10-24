@@ -1,0 +1,37 @@
+APEXPLANET CYBERSECURITY INTERNSHIP
+DAY 1 - LINUX CHEAT SHEET
+
+1. DIRECTORY NAVIGATION
+pwd          - Display current directory
+ls           - List files
+ls -la       - List all files, including hidden files
+cd folder   - Enter a directory
+cd ~         - Go to home directory
+
+2. FILE OPERATIONS
+touch file.txt              - Create an empty file
+cat file.txt                - Display file contents
+mkdir folder                - Create a directory
+cp source destination       - Copy a file
+mv source destination       - Move or rename a file
+
+3. PERMISSIONS
+ls -l file.txt              - View file permissions
+chmod 600 file.txt          - Owner read/write only
+chmod 644 file.txt          - Owner read/write; others read
+chmod 700 folder            - Owner-only directory access
+stat file.txt               - View file metadata
+
+4. NETWORKING
+ip addr                     - Show network interfaces
+ip route                    - Show routing table
+ping -c 4 1.1.1.1           - Test IP connectivity
+nslookup google.com         - Test DNS resolution
+
+5. SECURITY CHECKS
+find . -type f -perm -0002 -ls
+Search for files writable by everyone in the current directory tree.
+
+IMPORTANT
+Only scan systems you own or have explicit permission to test.
+Do not expose passwords, tokens, private keys, or personal information in public repositories.
